@@ -8,4 +8,4 @@ def flip_img(path):
         cv2.imshow(title, cv2.flip(orig, code))
     cv2.waitKey(0)
     cv2.destroyAllWindows()
-flip_img("Kick.bmp")
+flip_img("lion.png")

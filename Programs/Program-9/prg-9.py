@@ -7,4 +7,4 @@ def show_rotated_right(img_path, angle):
   cv2.imshow("Rotated Right", rotated)
   cv2.waitKey(0)
   cv2.destroyAllWindows()
-show_rotated_right("Bean.tiff", 45)
+show_rotated_right("HP.jpg", 45)

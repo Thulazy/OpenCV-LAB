@@ -7,4 +7,4 @@ def crop(img_path, x, y, w, h):
   cv2.waitKey(0)
   cv2.destroyAllWindows()
 
-crop("Fortuner.jpg", 20, 20, 150, 150)
+crop("bmw.jpg", 20, 20, 150, 150)

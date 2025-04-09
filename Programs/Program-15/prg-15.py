@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 # Initialize EasyOCR reader and load image
 reader = easyocr.Reader(['en'])
-image = cv2.imread('Snape.jpg')
+image = cv2.imread('sample.tiff')
 
 # Detect text and draw bounding boxes
 for bbox, text, _ in reader.readtext(image):

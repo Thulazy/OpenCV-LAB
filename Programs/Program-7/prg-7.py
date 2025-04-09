@@ -16,5 +16,5 @@ def read_display_img(img_path):
     cv2.imshow("Image as TIFF", img_tiff)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
-img_path='GT.jpg'
+img_path='bmw.jpg'
 read_display_img(img_path)

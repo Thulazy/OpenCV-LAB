@@ -1,5 +1,5 @@
 import cv2
-image = cv2.imread('Bean.tiff')
+image = cv2.imread('lion.png')
 cv2.imshow('Original Image', image)
 gaussian_blur = cv2.GaussianBlur(image, (5, 5), 0)
 cv2.imshow('Gaussian Blur', gaussian_blur)

@@ -2,9 +2,9 @@ import cv2
 def read_display():
     img_paths=[
         'HP.jpg',
-        'Kick.bmp',
-        'Minion.png',
-        'Bean.tiff'
+        'Output_img.bmp',
+        'lion.png',
+        'sample.tiff'
     ]
     for img_path in img_paths:
         img=cv2.imread(img_path)

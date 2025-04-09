@@ -11,4 +11,4 @@ def show_hist(p):
   pl.legend()
   pl.grid()
   pl.show()
-show_hist('Kick.bmp')
+show_hist('bmw.jpg')

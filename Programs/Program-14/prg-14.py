@@ -5,4 +5,4 @@ def edge_detection(image_path):
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 
-edge_detection('GT.jpg')
+edge_detection('bmw.jpg')
